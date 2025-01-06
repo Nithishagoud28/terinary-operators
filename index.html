@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<script>
+let ishtml = true;
+let iscss = true;
+let isbootstrap = true;
+let isjs = false;
+let isreact = false;
+let isnode = false;
+
+// Check for UI/UX designer
+console.log(ishtml && iscss && isbootstrap ? "UI/UX designer" : "Not a UI/UX designer");
+
+// Check for frontend developer
+console.log(ishtml && iscss && isbootstrap && isjs && isreact ? "Frontend developer" : "Not a frontend developer");
+
+// Check for backend developer
+console.log(ishtml && iscss && isbootstrap && isjs && isreact && isnode ? "Backend developer" : "Not a backend developer");
+
+// Check for full-stack developer
+console.log(ishtml && iscss && isbootstrap && isjs && isreact && isnode ? "Full-stack developer" : "Not a full-stack developer");
+
+// Check for joining 10000 coders
+console.log(!ishtml && !iscss && !isbootstrap && !isjs && !isreact && !isnode ? "Join 10000 coders" : "Not joining 10000 coders");
+</script>
+</body>
+</html>
